@@ -1,18 +1,22 @@
-/* Basic and simple CSS */
+/* Aesthetic and clean styling for PantryPal */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #eaf4f4 0%, #f6f7f2 50%, #fcf8f2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 15px;
+    color: #2d3748;
 }
 
 .container {
-    background-color: white;
+    background-color: #ffffff;
     max-width: 750px;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 25px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
 }
 
 .header-content {
@@ -35,20 +39,21 @@ body {
 
 h1 {
     margin-bottom: 5px;
-    color: #333;
+    color: #1a202c;
 }
 
 hr {
-    margin: 15px 0;
+    margin: 18px 0;
     border: 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #edf2f7;
 }
 
 .summary {
-    background-color: #eef2f5;
-    padding: 10px;
+    background-color: #f7fafc;
+    border: 1px solid #edf2f7;
+    padding: 12px 15px;
     margin-bottom: 20px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .inputs, .search-box {
@@ -56,25 +61,31 @@ hr {
 }
 
 input {
-    padding: 7px;
+    padding: 8px 10px;
     margin-right: 5px;
     margin-bottom: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4299e1;
 }
 
 button {
-    padding: 7px 12px;
-    background-color: #007bff;
+    padding: 8px 14px;
+    background-color: #3182ce;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     cursor: pointer;
     margin-right: 5px;
+    font-weight: 500;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2b6cb0;
 }
 
 table {
@@ -84,21 +95,22 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #f7f7f7;
+    background-color: #f7fafc;
+    color: #4a5568;
 }
 
 /* Low stock indicator */
 .low-stock {
-    color: red;
+    color: #e53e3e;
     font-weight: bold;
 }
 
 .in-stock {
-    color: green;
+    color: #38a169;
 }
