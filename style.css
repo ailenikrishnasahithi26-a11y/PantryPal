@@ -1,8 +1,8 @@
-/* Aesthetic and clean styling for PantryPal */
+/* Aesthetic Soft Lavender & Periwinkle styling for PantryPal */
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(135deg, #eaf4f4 0%, #f6f7f2 50%, #fcf8f2 100%);
+    background: linear-gradient(135deg, #ede9fe 0%, #e0e7ff 50%, #fce7f3 100%);
     min-height: 100vh;
     margin: 0;
     padding: 30px 15px;
@@ -14,9 +14,9 @@ body {
     max-width: 750px;
     margin: 0 auto;
     padding: 25px;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e7ff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.08);
 }
 
 .header-content {
@@ -39,18 +39,18 @@ body {
 
 h1 {
     margin-bottom: 5px;
-    color: #1a202c;
+    color: #1e1b4b;
 }
 
 hr {
     margin: 18px 0;
     border: 0;
-    border-top: 1px solid #edf2f7;
+    border-top: 1px solid #e0e7ff;
 }
 
 .summary {
-    background-color: #f7fafc;
-    border: 1px solid #edf2f7;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
     padding: 12px 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -64,28 +64,29 @@ input {
     padding: 8px 10px;
     margin-right: 5px;
     margin-bottom: 5px;
-    border: 1px solid #cbd5e0;
+    border: 1px solid #cbd5e1;
     border-radius: 6px;
     outline: none;
 }
 
 input:focus {
-    border-color: #4299e1;
+    border-color: #6366f1;
 }
 
 button {
     padding: 8px 14px;
-    background-color: #3182ce;
+    background-color: #6366f1;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     margin-right: 5px;
     font-weight: 500;
+    transition: background-color 0.2s;
 }
 
 button:hover {
-    background-color: #2b6cb0;
+    background-color: #4f46e5;
 }
 
 table {
@@ -101,16 +102,16 @@ th, td {
 }
 
 th {
-    background-color: #f7fafc;
-    color: #4a5568;
+    background-color: #f8fafc;
+    color: #475569;
 }
 
 /* Low stock indicator */
 .low-stock {
-    color: #e53e3e;
+    color: #e11d48;
     font-weight: bold;
 }
 
 .in-stock {
-    color: #38a169;
+    color: #16a34a;
 }
