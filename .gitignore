@@ -4,3 +4,5 @@ DOCUMENTATION.md
 documentation.html
 PantryPal_Project_Documentation.pdf
 inventory.txt
+inventory.json
+app.py

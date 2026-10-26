@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <path d="M12 16 L14 40 A3 3 0 0 0 17 43 H31 A3 3 0 0 0 34 40 L36 16 Z" fill="#f8f9fa" stroke="#95a5a6" stroke-width="2.5"/>
+  <path d="M10 16 L24 11 L38 16 Z" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2.5"/>
+  <rect x="16" y="24" width="16" height="11" rx="2" fill="#e74c3c"/>
+  <text x="24" y="32" font-size="6.5" font-family="Arial, sans-serif" font-weight="bold" fill="#ffffff" text-anchor="middle">SUGAR</text>
+</svg>

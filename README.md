@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/banner.svg" alt="PantryPal Banner" width="100%">
+</p>
+
 # PantryPal - Simple Home Inventory Tracker
 
 A simple household inventory tracker using **dictionaries** and plain **text file handling** (No JSON used).

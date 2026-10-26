@@ -10,6 +10,16 @@ let inventory = {
 
 let lowStockLimit = 2;
 
+// Helper function to pick image for an item
+function getItemImage(name) {
+    let lower = name.toLowerCase();
+    if (lower.includes("milk")) return "images/milk.svg";
+    if (lower.includes("rice")) return "images/rice.svg";
+    if (lower.includes("sugar")) return "images/sugar.svg";
+    if (lower.includes("egg")) return "images/eggs.svg";
+    return "images/grocery.svg";
+}
+
 // Function to display items from dictionary in the table
 function displayItems(dict) {
     let tableBody = document.getElementById("tableBody");
@@ -38,9 +48,11 @@ function displayItems(dict) {
             statusClass = "in-stock";
         }
 
-        // Add table row
+        let iconPath = getItemImage(name);
+
+        // Add table row with image icon
         let row = "<tr>" +
-            "<td>" + name + "</td>" +
+            "<td><img src='" + iconPath + "' class='item-icon' alt='item'> " + name + "</td>" +
             "<td>" + item.quantity + "</td>" +
             "<td>Rs. " + item.price + "</td>" +
             "<td>Rs. " + itemTotal + "</td>" +
